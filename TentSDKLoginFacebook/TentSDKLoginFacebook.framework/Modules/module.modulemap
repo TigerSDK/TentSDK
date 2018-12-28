@@ -1,0 +1,6 @@
+framework module TentSDKLoginFacebook {
+  umbrella header "TentSDKLoginFacebook.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TentSDKLoginPw {
+  umbrella header "TentSDKLoginPw.h"
+
+  export *
+  module * { export * }
+}

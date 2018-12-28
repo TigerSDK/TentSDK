@@ -1,0 +1,6 @@
+framework module TentSDKPay {
+  umbrella header "TentSDKPay.h"
+
+  export *
+  module * { export * }
+}

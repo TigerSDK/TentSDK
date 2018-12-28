@@ -1,0 +1,6 @@
+framework module TentSDKFireBaseFCM {
+  umbrella header "TentSDKFireBaseFCM.h"
+
+  export *
+  module * { export * }
+}

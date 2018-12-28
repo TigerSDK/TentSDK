@@ -1,0 +1,6 @@
+framework module TentSDKChartboost {
+  umbrella header "TentSDKChartboost.h"
+
+  export *
+  module * { export * }
+}

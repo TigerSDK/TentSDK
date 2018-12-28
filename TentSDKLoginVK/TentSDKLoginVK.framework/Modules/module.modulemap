@@ -1,0 +1,6 @@
+framework module TentSDKLoginVK {
+  umbrella header "TentSDKLoginVK.h"
+
+  export *
+  module * { export * }
+}

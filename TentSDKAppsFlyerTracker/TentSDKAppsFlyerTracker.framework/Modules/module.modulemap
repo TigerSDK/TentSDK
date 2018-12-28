@@ -1,0 +1,6 @@
+framework module TentSDKAppsFlyerTracker {
+  umbrella header "TentSDKAppsFlyerTracker.h"
+
+  export *
+  module * { export * }
+}

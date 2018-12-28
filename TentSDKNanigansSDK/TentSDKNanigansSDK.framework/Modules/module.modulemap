@@ -1,0 +1,6 @@
+framework module TentSDKNanigansSDK {
+  umbrella header "TentSDKNanigansSDK.h"
+
+  export *
+  module * { export * }
+}
