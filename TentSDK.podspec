@@ -136,8 +136,4 @@ end
   #你的SDK路径
   # s.vendored_frameworks = 'TGameSDK/Classes/*.framework'
 
-s.pod_target_xcconfig = {
-   'ENABLE_BITCODE'           => 'NO'
-}
-
 end
