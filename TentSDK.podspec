@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint TESDKText.podspec' to ensure this is a
+# Be sure to run `pod lib lint TGSDKText.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -130,11 +130,14 @@ end
 #s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-#s.resource = 'TentSDK/Assets/*.lproj', 'TentSDK/Assets/TentFramework.bundle'
+#s.resource = 'TGameSDK/Assets/*.lproj', 'TGameSDK/Assets/TentFramework.bundle'
 
-#  s.vendored_frameworks = 'TentSDKTest.framework'
+#  s.vendored_frameworks = 'TGameSDKTest.framework'
   #你的SDK路径
-  # s.vendored_frameworks = 'TentSDK/Classes/*.framework'
+  # s.vendored_frameworks = 'TGameSDK/Classes/*.framework'
 
+s.pod_target_xcconfig = {
+   'ENABLE_BITCODE'           => 'NO'
+}
 
 end
