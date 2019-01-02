@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TentSDK'
-  s.version          = '0.0.4'
+  s.version          = '0.0.3'
   s.summary          = 'TentSDK pod Use.'
 
 # This description is used to generate tags and improve search results.
@@ -58,7 +58,7 @@ s.subspec 'TentSDKLoginPw' do |loginPw|
     # 添加依赖第三方的framework
     loginPw.vendored_frameworks = 'TentSDKLoginPw/*.framework'
     # 依赖的核心模块
-    loginPw.dependency 'TentSDK/TentFramework'
+    loginPw.dependency 'TentSDK/TentSDKLogin'
 end
 
 # Facebook登录模块
@@ -66,7 +66,7 @@ s.subspec 'TentSDKLoginFacebook' do |loginfb|
     # 添加依赖第三方的framework
     loginfb.vendored_frameworks = 'TentSDKLoginFacebook/*.framework'
     # 依赖的核心模块
-    loginfb.dependency 'TentSDK/TentFramework'
+    loginfb.dependency 'TentSDK/TentSDKLogin'
     loginfb.dependency 'FBSDKCoreKit'
     loginfb.dependency 'FBSDKLoginKit'
     loginfb.dependency 'FBSDKShareKit'
@@ -77,7 +77,7 @@ end
     # 添加依赖第三方的framework
     loginvk.vendored_frameworks = 'TentSDKLoginVK/*.framework'
     # 依赖的核心模块
-    loginvk.dependency 'TentSDK/TentFramework'
+    loginvk.dependency 'TentSDK/TentSDKLogin'
     loginvk.dependency 'VK-ios-sdk'
 end
 
