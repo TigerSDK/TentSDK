@@ -127,17 +127,4 @@ s.subspec 'TentSDKFireBaseFCM' do |firebasefcm|
      firebasefcm.dependency 'Firebase/Messaging', '~> 5.4.0'
 end
 
-#s.frameworks = 'UIKit', 'Foundation'
-  # s.dependency 'AFNetworking', '~> 2.3'
-
-#s.resource = 'TGameSDK/Assets/*.lproj', 'TGameSDK/Assets/TentFramework.bundle'
-
-#  s.vendored_frameworks = 'TGameSDKTest.framework'
-  #你的SDK路径
-  # s.vendored_frameworks = 'TGameSDK/Classes/*.framework'
-
-s.pod_target_xcconfig = {
-    'ENABLE_BITCODE'           => 'NO'
-}
-
 end
