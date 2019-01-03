@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TentSDK'
-  s.version          = '0.0.3'
+  s.version          = '0.0.1'
   s.summary          = 'TentSDK pod Use.'
 
 # This description is used to generate tags and improve search results.
