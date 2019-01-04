@@ -160,9 +160,9 @@ enum {
 #define TE_SDK_SKEY_NOTIFYURL "notifyUrl"
 #define TE_SDK_SKEY_USERID "userId"
 #define TE_SDK_SKEY_ORDERMODE "orderMode"
-#define TE_SDK_SKEY_USERNAME "userEname"
+#define TE_SDK_SKEY_USERNAME "username"
 
-#define TE_SDK_SKEY_PHONENUM "phoneENum"
+#define TE_SDK_SKEY_PHONENUM "phoneNum"
 #define TE_SDK_SKEY_MSGTITLE "msgTitle"
 #define TE_SDK_SKEY_MSGBODY "msgBody"
 
