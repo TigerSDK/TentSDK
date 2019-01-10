@@ -74,8 +74,9 @@
  * 推送消息列表接口
  * start 页数
  * length 消息个数
+ * language 语言种类
  */
-- (NSString *)requestWithGetMessageListWithIndex:(NSString *)start andLength:(NSString *)length;
+- (NSString *)requestWithGetMessageListWithIndex:(NSString *)start andLength:(NSString *)length andLanguage:(NSString *)language;
 /*
  * 推送消息记录接口
  * messageId 推送消息id

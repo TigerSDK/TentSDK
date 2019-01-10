@@ -290,9 +290,11 @@ FOUNDATION_EXPORT const unsigned char TentSDKVersionString[];
  * 获取推送消息列表
  * @param startIndex 分页下表
  * @param length 分页数量
+ * @param language 语言种类
  */
 -(void)getMessageWith:(NSInteger)startIndex
-            andLength:(NSInteger)length;
+            andLength:(NSInteger)length
+          andLanguage:(NSString *)language;
 
 /*
  * 记录消息读取次数

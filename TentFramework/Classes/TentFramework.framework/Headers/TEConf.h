@@ -112,6 +112,7 @@ enum {
 //key of postdata in message
 #define TE_SDK_POSTDATAKEY_StartIndex @"start"
 #define TE_SDK_POSTDATAKEY_Length @"length"
+#define TE_SDK_POSTDATAKEY_Language @"language"
 
 //key of postdata in tentlogin
 #define TE_SDK_POSTDATAKEY_USERNAME @"username"
